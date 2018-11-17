@@ -1,0 +1,35 @@
+Ideas for GameDev class:
+
+A simple shooter game: you move with WASD and shoot with IJKL. You fight a variety of enemies (to teach classes and stuff). One weapon. Explore the idea of adding a new weapon.
+
+Features of the game: 
+
+No mainmenu! 
+2 or 3 types of enemies
+Player
+bullets
+enemy-bullets
+[[[basic health system (for player and enemies)]]] (no)
+OOP (maybe?) (yes)
+[[[Ammo is bullshit, so no]]]
+
+Assets: 
+player.png, player-bullet.png, enemy1.png, enemy2.png, enemy2.png, enemy3.png, enemy3-bullet.png (all students will make the art they need for their game) 
+(show opengameart/freesounds)
+
+Scripts: 
+Will start working on demo!
+
+Generic:
+middleclass.lua - for OOP.
+vec2.lua - for math things.
+collision.lua - will write in class to demonstate maybe. 
+
+Game Specific:
+player.lua - contains code for the player 
+player_bullet.lua - contains code for the player's bullet
+enemy.lua - generic parent for all enemies, teach inheritance. 
+game.lua - contains the code the glues together the enemies, player, objects, etc. It's all managed from here.
+enemy1.lua - enemy follows the player.
+enemy2.lua - enemy that moves in a straight line, and sometimes shoots at the player.
+enemy3.lua - complex enemy that will follow the player, but attempt to dodge bullets. 
